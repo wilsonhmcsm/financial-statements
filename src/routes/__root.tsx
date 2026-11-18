@@ -44,6 +44,14 @@ function RootDocument({ children }: { children: React.ReactNode }) {
               <Link to="/" className="text-ink-soft hover:text-ink"
                 activeProps={{ className: "font-semibold underline decoration-brand underline-offset-8" }}
                 activeOptions={{ exact: true }}>Home</Link>
+              <Link to="/income-statement" className="text-ink-soft hover:text-ink"
+                activeProps={{ className: "font-semibold underline decoration-brand underline-offset-8" }}>
+                Income Statement
+              </Link>
+              <Link to="/balance-sheet" className="text-ink-soft hover:text-ink"
+                activeProps={{ className: "font-semibold underline decoration-brand underline-offset-8" }}>
+                Balance Sheet
+              </Link>
             </nav>
           </div>
         </header>
@@ -55,8 +63,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
             <p>A fictional company used for accounting examples.</p>
           </div>
         </footer>
-        <TanStackDevtools
-                <main className="max-w-4xl mx-auto px-6 py-12">{children}</main>
         <TanStackDevtools
           config={{
             position: 'bottom-right',
