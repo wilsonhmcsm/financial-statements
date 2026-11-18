@@ -11,7 +11,7 @@ function Home() {
         <p className="mt-6 text-lg text-ink-soft max-w-2xl">
       Kissena Baked Goods is a bakery in{" "}
       <a href="https://en.wikipedia.org/wiki/Astoria,_Queens"
-         target="_blank" rel="noopener noreferrer" className="underline">
+                target="_blank" rel="noopener noreferrer" className="text-brand underline hover:text-ink">
         Astoria, Queens, New York
       </a>. It sells a wholesale line and accepts custom cake orders, including weddings.
       {" "}<span>(The location link opens a new tab.)</span>
@@ -21,7 +21,7 @@ function Home() {
       and opened in January 20X5. It has three ovens, four delivery vans,
       and 14 staff members.
     </p>
-        <h2 className="font-display text-2xl mt-10 mb-3">
+         <h2 className="font-display text-2xl mt-10 mb-3">What we bake</h2>
     <ul className="list-disc pl-6 space-y-2 text-ink-soft">
       <li>Sourdough, semolina, and rye loaves</li>
       <li>Kaiser rolls, hero bread, and dinner rolls</li>
@@ -29,7 +29,7 @@ function Home() {
       <li>Cheesecake, black and white cookies, and sheet cakes</li>
       <li>Seasonal orders, including hot cross buns and tsoureki</li>
     </ul>
-        <h2 className="font-display text-2xl mt-10 mb-3">
+                <h2 className="font-display text-2xl mt-10 mb-3">How a wholesale order is completed</h2>
     <ol className="list-decimal pl-6 space-y-2 text-ink-soft">
       <li>A customer places a wholesale order.</li>
       <li>The manager prepares a bake sheet.</li>
@@ -37,7 +37,7 @@ function Home() {
       <li>Drivers deliver the goods to the customer.</li>
       <li>The accountant records the credit sale and accounts receivable.</li>
     </ol>
-        <h2 className="font-display text-2xl mt-10 mb-3">
+                <h2 className="font-display text-2xl mt-10 mb-3">The year in brief</h2>
     <p className="mt-6 text-lg text-ink-soft max-w-2xl">
       In 20X5, net sales were $1,500,000 and net income was $230,000.
       These illustrative financial statements describe the year ended December 31, 20X5.
